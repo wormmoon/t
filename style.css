@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	width: 100%;
+	height: 65px;
+	background-color: #444;
+}
+
+.navbar ul {
+	overflow: auto;
+	display: inline;
+}
+
+.navbar ul li {
+	display: inline-block;
+	width: 100px;
+	height: 65px;
+	float: left;
+	white-space: nowrap;
+}
+
+.navbar ul li:hover {
+	background-color: #777;
+}
+
+.navbar ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	font-family: sans-serif;
+	display: block;
+	padding: 20px 10px;
+	text-align: center;
+}
+
+#about-btn {
+
+}
+
+.about-submenu {
+	display: none !important;
+}
+
+.about-submenu li {
+	width: auto !important;
+	background-color: #999;
+}
+
+/*.active {
+
+}*/
+
+.hambrgr {
+	font-size: 30px;
+	color: #fff;
+	display: inline;
+	float: right;
+	margin: 10px 20px;
+	cursor: pointer;
+	display: none;
+}
